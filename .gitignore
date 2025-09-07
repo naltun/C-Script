@@ -1,0 +1,3 @@
+cscript
+lex.yy.c
+y.tab.*
