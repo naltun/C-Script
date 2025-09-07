@@ -34,6 +34,7 @@ unquote(const char *yytext)
 %%
 
 [ \t\r\n]+ ;  /* whitespace */
+^"#!".*    ;  /* shebang */
 "//".*     ;  /* comment */
 
 "void"   { return T_VOID; }
