@@ -1,6 +1,8 @@
+#!/usr/bin/env cscript
+
 void greet(str name) {
     if (length(name) == 0)
-        printf("Hello, World!");
+        printf("Hello, World!\n");
     else {
         // A comment...
         printf("Hello, %s!\n", name);
