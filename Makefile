@@ -8,7 +8,7 @@ default:
 	$(CC) -o $(BIN) $(INCLUDES)
 
 clean:
-	rm $(BIN) $(INCLUDES)
+	rm $(BIN) $(INCLUDES) y.tab.h
 
 test:
-	./$(BIN) < test01.cs
+	./$(BIN) < test01.c
